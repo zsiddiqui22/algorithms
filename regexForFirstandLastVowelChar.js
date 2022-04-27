@@ -14,7 +14,7 @@ function regexVar(s) {
      */
     
     
-    return re;
+    return re.test(s);
 }
 
- console.log(re.test(s));
+ console.log(regexVar(s));
